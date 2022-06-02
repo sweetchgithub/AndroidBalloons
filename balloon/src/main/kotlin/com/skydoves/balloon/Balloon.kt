@@ -237,7 +237,7 @@ public class Balloon private constructor(
     return builder.arrowSize * 2
   }
 
-  private fun initializeArrow(anchor: View) {
+  fun initializeArrow(anchor: View) {
     with(binding.balloonArrow) {
       layoutParams = FrameLayout.LayoutParams(builder.arrowSize, builder.arrowSize)
       alpha = builder.alpha
