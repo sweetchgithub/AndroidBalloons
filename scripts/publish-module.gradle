@@ -51,7 +51,7 @@ afterEvaluate {
         pom {
           name = PUBLISH_ARTIFACT_ID
           description = 'Modernized and sophisticated tooltips, fully customizable with an arrow and animations for Android.'
-          url = 'https://github.com/skydoves/balloon'
+          url = 'https://github.com/chaimgross/Balloon'
           licenses {
             license {
               name = 'The Apache Software License, Version 2.0'
@@ -63,25 +63,16 @@ afterEvaluate {
               id = 'skydoves'
               name = 'Jaewoong Eum'
               email = "skydoves2@gmail.com"
-              url = "https://github.com/skydoves"
+              url = "https://github.com/chaimgross/"
             }
           }
           scm {
-            connection = 'scm:git:github.com/skydoves/balloon.git'
-            developerConnection = 'scm:git:ssh://github.com/skydoves/balloon.git'
-            url = 'https://github.com/skydoves/balloon/tree/main'
+            connection = 'scm:git:github.com/chaimgross/Balloon.git'
+            developerConnection = 'scm:git:ssh://github.com/chaimgross/Balloon.git'
+            url = 'https://github.com/chaimgross/Balloon/tree/main'
           }
         }
       }
     }
   }
-}
-
-signing {
-  useInMemoryPgpKeys(
-    rootProject.ext["signing.keyId"],
-    rootProject.ext["signing.key"],
-    rootProject.ext["signing.password"],
-  )
-  sign publishing.publications
 }
