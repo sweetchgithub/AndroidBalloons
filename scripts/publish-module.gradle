@@ -51,7 +51,7 @@ afterEvaluate {
         pom {
           name = PUBLISH_ARTIFACT_ID
           description = 'Modernized and sophisticated tooltips, fully customizable with an arrow and animations for Android.'
-          url = 'https://github.com/chaimgross/Balloon'
+          url = 'https://github.com/sweetchgithub/AndroidBalloons'
           licenses {
             license {
               name = 'The Apache Software License, Version 2.0'
@@ -63,13 +63,13 @@ afterEvaluate {
               id = 'skydoves'
               name = 'Jaewoong Eum'
               email = "skydoves2@gmail.com"
-              url = "https://github.com/chaimgross/"
+              url = "https://github.com/sweetchgithub/"
             }
           }
           scm {
-            connection = 'scm:git:github.com/chaimgross/Balloon.git'
-            developerConnection = 'scm:git:ssh://github.com/chaimgross/Balloon.git'
-            url = 'https://github.com/chaimgross/Balloon/tree/main'
+            connection = 'scm:git:github.com/sweetchgithub/AndroidBalloons.git'
+            developerConnection = 'scm:git:ssh://github.com/sweetchgithub/AndroidBalloons.git'
+            url = 'https://github.com/sweetchgithub/AndroidBalloons/tree/main'
           }
         }
       }
